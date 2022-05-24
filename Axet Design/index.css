@@ -66,12 +66,13 @@ body {
   background: rgba(0, 0, 0, 0.26);
 }
 
-.navbar {
-}
-
 .right-nav {
   display: flex;
   align-items: center;
+}
+
+.navbar #menu {
+  display: none;
 }
 
 .left-nav {
@@ -263,7 +264,7 @@ body {
 .about {
   display: flex;
   justify-content: space-between;
-  /* margin-top: 34px; */
+  margin-top: 154px;
   /* align-items: center; */
 }
 
@@ -868,4 +869,284 @@ footer {
   height: 46px;
   text-align: center;
   color: #474747;
+}
+
+footer p {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .top-most {
+    display: none;
+  }
+
+  .upper {
+    height: 1000px;
+  }
+
+  .right-nav img {
+    width: 70px;
+  }
+
+  .help {
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .help #need {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .help #num {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #ffc42d;
+  }
+
+  .left-nav {
+    display: none;
+  }
+
+  .navbar #menu {
+    display: block;
+    margin-right: 15px;
+  }
+
+  .under-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px;
+  }
+
+  .under-right {
+    width: 350px;
+    height: 124px;
+  }
+
+  .under-right h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 102px;
+    /* or 102px */
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .under-right #ind {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 62px;
+    /* or 102px */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .under-left {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 34px; */
+    /* align-items: center; */
+  }
+
+  .rechts {
+    margin-top: 80px;
+    margin-left: 68px;
+  }
+
+  .rechts #axet {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154.7%;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    color: #995aaa;
+  }
+
+  .rechts #who {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 154.7%;
+    color: #474747;
+  }
+
+  .rechts #lorem {
+    width: 256px;
+    height: 102px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 154.7%;
+    /* or 22px */
+
+    color: #000000;
+  }
+  .rechts #dummy {
+    width: 256px;
+    height: 102px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 154.7%;
+    /* or 22px */
+
+    color: #000000;
+  }
+
+  .light {
+    display: none;
+  }
+
+  .service {
+    margin-top: 80px;
+  }
+
+  .cards {
+    display: block;
+    width: 100%;
+  }
+
+  .cards #first,
+  #second,
+  #third,
+  #fourth {
+    margin-top: 40px;
+  }
+
+  .work {
+    height: 1300px;
+    width: 100%;
+    background-image: none;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .line p {
+    /* width: 100%; */
+  }
+
+  .line #eins,
+  #zwei,
+  #drei,
+  #vrai {
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 80px;
+  }
+
+  .gall {
+    display: block;
+  }
+
+  .gall #r1 {
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+
+  .news {
+    display: none;
+  }
+
+  .track {
+    width: 100%;
+  }
+
+  .track p {
+    margin-left: 100px;
+  }
+
+  .track img {
+    margin-left: 140px;
+  }
+
+  .client {
+    display: none;
+  }
+
+  .fat #jan {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .fat #feb {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mean {
+    text-align: center;
+  }
+
+  .cont #fon {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .cont #loc,
+  #smart,
+  #rise {
+    margin-left: 30px;
+  }
+
+  .law {
+    height: 1100px;
+    display: block;
+  }
+
+  .rule {
+    text-align: center;
+  }
+
+  hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    height: 30px;
+  }
+
+  footer p {
+    margin-top: 10px;
+  }
 }
